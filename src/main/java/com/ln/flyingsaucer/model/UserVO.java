@@ -32,6 +32,6 @@ public class UserVO {
 
     @Override
     public String toString() {
-        return ToStringBuilder.reflectionToString(ToStringBuilder.getDefaultStyle(), ToStringStyle.JSON_STYLE);
+        return ToStringBuilder.reflectionToString(this, ToStringStyle.JSON_STYLE);
     }
 }
